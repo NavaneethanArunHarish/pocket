@@ -1,0 +1,8 @@
+.ui.fluid.input>input {
+  text-align: right !important;
+}
+
+.ui[class*="vertically divided"].grid>.row:before {
+  width: 100% !important;
+  margin-left: 0 !important;
+}

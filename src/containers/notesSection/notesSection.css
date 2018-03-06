@@ -1,0 +1,66 @@
+
+.imageColumn {
+  margin-left:20px;
+  margin-top: -12px;
+  width: 58px !important;
+  height: 50px !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.notesSectionDiv {
+  margin-top:20px;
+
+}
+
+.iconStyle {
+   color:#dbdde0;
+}
+
+.cameraStyle {
+  height: 60vh !important;
+  width: 100% !important;
+}
+
+.inputColumn {
+  margin-left:20px;
+  width: 70px !important;
+  height: 80px !important;
+  background-color: white;
+  border-color: #dbdde0 !important;
+  border: 1px solid;
+}
+
+.flexcroll {
+  height: 69vh !important;
+  overflow-y:scroll;
+  overflow-x: hidden;
+}
+.flexcroll::-webkit-scrollbar {
+    width: 0.1px;
+}
+
+@media only screen and (min-device-width: 1200px){
+
+.takePhotoBtn {
+  margin-left:750px;
+}
+
+}
+
+@media only screen and (min-device-width: 1200px){
+  
+  .takePhotoBtn {
+    margin-left:750px;
+  }
+
+  .imageColumn {
+    margin-left:20px;
+    margin-top: -15px;
+    width: 100px !important;
+    height: 100px !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  }
